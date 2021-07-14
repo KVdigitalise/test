@@ -1,0 +1,1190 @@
+@media only screen and (min-width: 500px) {
+  #main-body{
+    padding: 5px;
+    margin: auto;
+    max-width: 450px;
+    text-align: center;
+}
+  #personal-photo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 10%;
+  }
+  #card-owner{
+      margin-top: 2%;
+      font-size: 20px;
+      color: white;
+  }
+  #designation{
+      margin-top: -1%;
+      font-size: 13px;
+      color: white;
+  }
+  #company{
+      font-size: 24px;
+      margin-top: 4%;
+      color: white;
+  }
+  section {
+  position: relative;
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  }
+  section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url('./images/trial3improvize.svg'); */
+  background: #056cfb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35% 0%;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  transform: scaleX(2.2);
+  }
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  #horizontal-wala-div {
+      display: flex;
+      width: 85%;
+      margin-bottom: 12%;
+      
+    }
+    
+  .icon-circle {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 4%;
+      background-color: transparent;
+      border:  white 2px solid;
+      margin: auto;
+    }
+    .icon-circle-vertical {
+      width: 30px;
+      height:30px;
+      border-radius: 50%;
+      padding: 4px;
+      margin-right: 4%;
+      background-color: transparent;
+      /* border: whitesmoke 3px solid; */
+    }
+    .icon-circle-vertical img {
+      width: 30px;
+      height: 30px;
+    }
+    .icon-circle-footer {
+      width: 50px;
+      height: fit-content;
+      
+      /* padding: 3px 3px 3px 3px; */
+      /* padding-bottom: 0px; */
+      /* margin-right: 4%; */
+    }
+  .icon-size {
+      color: white;
+      font-size: 24px;
+    }
+  #vertical-wala-div {
+      width: 85%;
+      margin: auto;
+      margin-top: 5%;
+    }
+  .information {
+      height: 60px;
+      width: 85%;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      margin-top: -1%;
+      margin-left: -1%;
+      text-align: justify;
+      padding-left: 1%;
+      color: #808087;
+    }
+  .information a {
+      text-decoration: none;
+      align-items: center;
+      color: #808087;
+      text-align: left;
+      font-weight: 600;
+  }
+  .main-div{
+      display: flex;
+      margin-top: 2px;
+      margin-bottom: 0px;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: -2%;
+      margin-bottom: 10px;
+  }
+  .ind-div{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius:5%;
+      padding: 8px 20px 8px 20px;
+      background-color: #dcdcdf;
+  }
+  .act{
+      background-color: #056cfb;
+  }
+  #service-left {
+      margin-left: -3%;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 600;
+      width: 60%;
+      color:  #808087;
+    }
+    #service-left li{
+      margin-top: 12px;
+    }
+    #services_name {
+      margin-left: 0%;
+    }
+    #service-right li{
+      margin-top: 12px;
+    }
+    #service-right {
+      
+      text-align: left;
+      font-size: 16px;
+      width: 50%;
+      color:  #808087;
+      font-weight: 600;
+      float: right;
+    }
+    .footer-text {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+    .footer-text-extra {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      margin-top: 25%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+  #horizontal-wala-div2 {
+      display: flex;
+      width: 95%;
+      justify-content: center;
+      margin: auto;
+      margin-top: -8%;
+    }
+  #footer-button{
+      width:25%;
+      height: 20px;
+      border-radius: 3%;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 450px) {
+  #main-body{
+    padding: 5px;
+    margin: auto;
+    width: 450px;
+    text-align: center;
+}
+  #personal-photo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 10%;
+  }
+  #card-owner{
+      margin-top: 2%;
+      font-size: 20px;
+      color: white;
+  }
+  #designation{
+      margin-top: -1%;
+      font-size: 13px;
+      color: white;
+  }
+  #company{
+      font-size: 24px;
+      margin-top: 4%;
+      color: white;
+  }
+  section {
+  position: relative;
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  }
+  section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url('./images/trial3improvize.svg'); */
+  background: #056cfb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35% 0%;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  transform: scaleX(2.2);
+  }
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  #horizontal-wala-div {
+      display: flex;
+      width: 85%;
+      margin-bottom: 12%;
+      
+    }
+    
+  .icon-circle {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 4%;
+      background-color: transparent;
+      border:  white 2px solid;
+      margin: auto;
+    }
+    .icon-circle-vertical {
+      width: 30px;
+      height:30px;
+      border-radius: 50%;
+      padding: 4px;
+      margin-right: 4%;
+      background-color: transparent;
+      /* border: whitesmoke 3px solid; */
+    }
+    .icon-circle-vertical img {
+      width: 30px;
+      height: 30px;
+    }
+    .icon-circle-footer {
+      width: 50px;
+      height: fit-content;
+      
+      /* padding: 3px 3px 3px 3px; */
+      /* padding-bottom: 0px; */
+      /* margin-right: 4%; */
+    }
+  .icon-size {
+      color: white;
+      font-size: 24px;
+    }
+  #vertical-wala-div {
+      width: 85%;
+      margin: auto;
+      margin-top: 5%;
+    }
+  .information {
+      height: 60px;
+      width: 85%;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      margin-top: -1%;
+      margin-left: -1%;
+      text-align: justify;
+      padding-left: 1%;
+      color: #808087;
+    }
+  .information a {
+      text-decoration: none;
+      align-items: center;
+      color: #808087;
+      text-align: left;
+      font-weight: 600;
+  }
+  .main-div{
+      display: flex;
+      margin-top: 2px;
+      margin-bottom: 0px;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: -2%;
+      margin-bottom: 10px;
+  }
+  .ind-div{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius:5%;
+      padding: 8px 20px 8px 20px;
+      background-color: #dcdcdf;
+  }
+  .act{
+      background-color: #056cfb;
+  }
+  #service-left {
+      margin-left: -3%;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 600;
+      width: 60%;
+      color:  #808087;
+    }
+    #service-left li{
+      margin-top: 12px;
+    }
+    #services_name {
+      margin-left: 0%;
+    }
+    #service-right li{
+      margin-top: 12px;
+    }
+    #service-right {
+      
+      text-align: left;
+      font-size: 16px;
+      width: 50%;
+      color:  #808087;
+      font-weight: 600;
+      float: right;
+    }
+    .footer-text {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+    .footer-text-extra {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      margin-top: 25%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+  #horizontal-wala-div2 {
+      display: flex;
+      width: 95%;
+      justify-content: center;
+      margin: auto;
+      margin-top: -8%;
+    }
+  #footer-button{
+      width:25%;
+      height: 20px;
+      border-radius: 3%;
+  }
+}
+@media only screen and (max-width: 450px) and (min-width: 420px) {
+  #main-body{
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+  #personal-photo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 10%;
+  }
+  #card-owner{
+      margin-top: 2%;
+      font-size: 20px;
+      color: white;
+  }
+  #designation{
+      margin-top: -1%;
+      font-size: 13px;
+      color: white;
+  }
+  #company{
+      font-size: 24px;
+      margin-top: 4%;
+      color: white;
+  }
+  section {
+  position: relative;
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  }
+  section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url('./images/trial3improvize.svg'); */
+  background: #056cfb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35% 0%;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  transform: scaleX(2.2);
+  }
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  #horizontal-wala-div {
+      display: flex;
+      width: 85%;
+      margin-bottom: 12%;
+      
+    }
+    
+  .icon-circle {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 4%;
+      background-color: transparent;
+      border:  white 2px solid;
+      margin: auto;
+    }
+    .icon-circle-vertical {
+      width: 30px;
+      height:30px;
+      border-radius: 50%;
+      padding: 4px;
+      margin-right: 4%;
+      background-color: transparent;
+      /* border: whitesmoke 3px solid; */
+    }
+    .icon-circle-vertical img {
+      width: 30px;
+      height: 30px;
+    }
+    .icon-circle-footer {
+      width: 50px;
+      height: fit-content;
+      
+      /* padding: 3px 3px 3px 3px; */
+      /* padding-bottom: 0px; */
+      /* margin-right: 4%; */
+    }
+  .icon-size {
+      color: white;
+      font-size: 24px;
+    }
+  #vertical-wala-div {
+      width: 85%;
+      margin: auto;
+      margin-top: 5%;
+    }
+  .information {
+      height: 60px;
+      width: 85%;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      margin-top: -1%;
+      margin-left: -1%;
+      text-align: justify;
+      padding-left: 1%;
+      color: #808087;
+    }
+  .information a {
+      text-decoration: none;
+      align-items: center;
+      color: #808087;
+      text-align: left;
+      font-weight: 600;
+  }
+  .main-div{
+      display: flex;
+      margin-top: 2px;
+      margin-bottom: 0px;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: -2%;
+      margin-bottom: 10px;
+  }
+  .ind-div{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius:5%;
+      padding: 6px 16px 6px 16px;
+      background-color: #dcdcdf;
+  }
+  .act{
+      background-color: #056cfb;
+  }
+  #service-left {
+      margin-left: -6%;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 600;
+      width: 60%;
+      color:  #808087;
+    }
+    #service-left li{
+      margin-top: 12px;
+    }
+    #services_name {
+      margin-left: 0%;
+    }
+    #service-right li{
+      margin-top: 12px;
+    }
+    #service-right {
+    
+      text-align: left;
+      font-size: 16px;
+      width: 50%;
+      color:  #808087;
+      font-weight: 600;
+      float: right;
+    }
+    .footer-text {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+    .footer-text-extra {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      margin-top: 25%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+  #horizontal-wala-div2 {
+      display: flex;
+      width: 95%;
+      justify-content: center;
+      margin: auto;
+      margin-top: -8%;
+    }
+  #footer-button{
+      width:25%;
+      height: 20px;
+      border-radius: 3%;
+  }
+}
+@media only screen and (max-width: 420px) and (min-width: 380px) {
+  #main-body{
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+  #personal-photo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 10%;
+  }
+  #card-owner{
+      margin-top: 2%;
+      font-size: 20px;
+      color: white;
+  }
+  #designation{
+      margin-top: -1%;
+      font-size: 13px;
+      color: white;
+  }
+  #company{
+      font-size: 24px;
+      margin-top: 4%;
+      color: white;
+  }
+  section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  }
+  section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url('./images/trial3improvize.svg'); */
+  background: #056cfb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35% 0%;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  transform: scaleX(2.2);
+  }
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  #horizontal-wala-div {
+      display: flex;
+      width: 85%;
+      margin-bottom: 12%;
+      
+    }
+    
+  .icon-circle {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 4%;
+      background-color: transparent;
+      border:  white 2px solid;
+      margin: auto;
+    }
+    .icon-circle-vertical {
+      width: 30px;
+      height:30px;
+      border-radius: 50%;
+      padding: 4px;
+      margin-right: 4%;
+      background-color: transparent;
+      /* border: whitesmoke 3px solid; */
+    }
+    .icon-circle-vertical img {
+      width: 30px;
+      height: 30px;
+    }
+    .icon-circle-footer {
+      width: 50px;
+      height: fit-content;
+      
+      /* padding: 3px 3px 3px 3px; */
+      /* padding-bottom: 0px; */
+      /* margin-right: 4%; */
+    }
+  .icon-size {
+      color: white;
+      font-size: 24px;
+    }
+  #vertical-wala-div {
+      width: 85%;
+      margin: auto;
+      margin-top: 5%;
+    }
+  .information {
+      height: 60px;
+      width: 85%;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      margin-top: -1%;
+      margin-left: -1%;
+      text-align: justify;
+      padding-left: 1%;
+      color: #808087;
+    }
+  .information a {
+      text-decoration: none;
+      align-items: center;
+      color: #808087;
+      text-align: left;
+      font-weight: 600;
+  }
+  .main-div{
+      display: flex;
+      margin-top: 2px;
+      margin-bottom: 0px;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: -2%;
+      margin-bottom: 10px;
+  }
+  .ind-div{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius:5%;
+      padding: 5px 16px 5px 16px;
+      background-color: #dcdcdf;
+  }
+  .act{
+      background-color: #056cfb;
+  }
+  #service-left {
+      margin-left: -6%;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 600;
+      width: 60%;
+      color:  #808087;
+    }
+    #service-left li{
+      margin-top: 10px;
+    }
+    #services_name {
+      margin-left: 0%;
+    }
+    #service-right li{
+      margin-top: 10px;
+    }
+    #service-right {
+      
+      text-align: left;
+      font-size: 14px;
+      width: 50%;
+      color:  #808087;
+      font-weight: 600;
+      float: right;
+    }
+    .footer-text {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+    .footer-text-extra {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      margin-top: 25%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+  #horizontal-wala-div2 {
+      display: flex;
+      width: 95%;
+      justify-content: center;
+      margin: auto;
+      margin-top: -8%;
+    }
+  #footer-button{
+      width:25%;
+      height: 20px;
+      border-radius: 3%;
+  }
+}
+@media only screen and (max-width: 380px) and (min-width: 330px) {
+  #main-body{
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+  #personal-photo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 10%;
+  }
+  #card-owner{
+      margin-top: 2%;
+      font-size: 20px;
+      color: white;
+  }
+  #designation{
+      margin-top: -1%;
+      font-size: 13px;
+      color: white;
+  }
+  #company{
+      font-size: 24px;
+      margin-top: 4%;
+      color: white;
+  }
+  section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  }
+  section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url('./images/trial3improvize.svg'); */
+  background: #056cfb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35% 0%;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  transform: scaleX(2.2);
+  }
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  #horizontal-wala-div {
+      display: flex;
+      width: 85%;
+      margin-bottom: 12%;
+      
+    }
+    
+  .icon-circle {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 4%;
+      background-color: transparent;
+      border:  white 2px solid;
+      margin: auto;
+    }
+    .icon-circle-vertical {
+      width: 30px;
+      height:30px;
+      border-radius: 50%;
+      padding: 4px;
+      margin-right: 4%;
+      background-color: transparent;
+      /* border: whitesmoke 3px solid; */
+    }
+    .icon-circle-vertical img {
+      width: 28px;
+      height: 28px;
+    }
+    .icon-circle-footer {
+      width: 50px;
+      height: fit-content;
+      
+      /* padding: 3px 3px 3px 3px; */
+      /* padding-bottom: 0px; */
+      /* margin-right: 4%; */
+    }
+  .icon-size {
+      color: white;
+      font-size: 24px;
+    }
+  #vertical-wala-div {
+      width: 85%;
+      margin: auto;
+      margin-top: 5%;
+    }
+  .information {
+      height: 60px;
+      width: 85%;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      margin-top: -1%;
+      margin-left: -1%;
+      text-align: justify;
+      padding-left: 1%;
+      color: #808087;
+    }
+  .information a {
+      text-decoration: none;
+      align-items: center;
+      color: #808087;
+      text-align: left;
+      font-weight: 600;
+  }
+  .main-div{
+      display: flex;
+      margin-top: 2px;
+      margin-bottom: 0px;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: -2%;
+      margin-bottom: 10px;
+  }
+  .ind-div{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius:5%;
+      padding: 4px 14px 4px 14px;
+      background-color: #dcdcdf;
+  }
+  .act{
+      background-color: #056cfb;
+  }
+  #service-left {
+      margin-left: -6%;
+      text-align: left;
+      font-size: 13px;
+      font-weight: 600;
+      width: 60%;
+      color:  #808087;
+    }
+    #service-left li{
+      margin-top: 10px;
+    }
+    #services_name {
+      margin-left: 0%;
+    }
+    #service-right li{
+      margin-top: 10px;
+    }
+    #service-right {
+      
+      text-align: left;
+      font-size: 13px;
+      width: 50%;
+      color:  #808087;
+      font-weight: 600;
+      float: right;
+    }
+    .footer-text {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+    .footer-text-extra {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      margin-top: 25%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+  #horizontal-wala-div2 {
+      display: flex;
+      width: 95%;
+      justify-content: center;
+      margin: auto;
+      margin-top: -8%;
+    }
+  #footer-button{
+      width:25%;
+      height: 20px;
+      border-radius: 3%;
+  }
+}
+@media only screen and (max-width: 330px) and (min-width: 270px) {
+  #main-body{
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+  #personal-photo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 10%;
+  }
+  #card-owner{
+      margin-top: 2%;
+      font-size: 20px;
+      color: white;
+  }
+  #designation{
+      margin-top: -1%;
+      font-size: 13px;
+      color: white;
+  }
+  #company{
+      font-size: 22px;
+      margin-top: 4%;
+      color: white;
+  }
+  section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  }
+  section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url('./images/trial3improvize.svg'); */
+  background: #056cfb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35% 0%;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  transform: scaleX(2.2);
+  }
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  #horizontal-wala-div {
+      display: flex;
+      width: 85%;
+      margin-bottom: 12%;
+      
+    }
+    
+  .icon-circle {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      padding: 6px;
+      margin-right: 4%;
+      background-color: transparent;
+      border:  white 2px solid;
+      margin: auto;
+    }
+    .icon-circle-vertical {
+      width: 30px;
+      height:30px;
+      border-radius: 50%;
+      padding: 4px;
+      margin-right: 4%;
+      background-color: transparent;
+      /* border: whitesmoke 3px solid; */
+    }
+    .icon-circle-vertical img {
+      width: 25px;
+      height: 25px;
+    }
+    .icon-circle-footer {
+      width: 50px;
+      height: fit-content;
+      
+      /* padding: 3px 3px 3px 3px; */
+      /* padding-bottom: 0px; */
+      /* margin-right: 4%; */
+    }
+  .icon-size {
+      color: white;
+      font-size: 20px;
+    }
+  #vertical-wala-div {
+      width: 85%;
+      margin: auto;
+      margin-top: 5%;
+    }
+  .information {
+      height: 60px;
+      width: 85%;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      margin-top: -1%;
+      margin-left: -1%;
+      text-align: justify;
+      padding-left: 1%;
+      color: #808087;
+    }
+  .information a {
+      text-decoration: none;
+      align-items: center;
+      color: #808087;
+      text-align: left;
+      font-weight: 600;
+  }
+  .main-div{
+      display: flex;
+      margin-top: 2px;
+      margin-bottom: 0px;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: -2%;
+      margin-bottom: 10px;
+  }
+  .ind-div{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius:5%;
+      padding: 2px 8px 2px 8px;
+      background-color: #dcdcdf;
+  }
+  .act{
+      background-color: #056cfb;
+  }
+  #service-left {
+      margin-left: -6%;
+      text-align: left;
+      font-size: 13px;
+      font-weight: 600;
+      width: 60%;
+      color:  #808087;
+    }
+    #service-left li{
+      margin-top: 10px;
+    }
+    #services_name {
+      margin-left: 0%;
+    }
+    #service-right li{
+      margin-top: 10px;
+    }
+    #service-right {
+      
+      text-align: left;
+      font-size: 13px;
+      width: 50%;
+      color:  #808087;
+      font-weight: 600;
+      float: right;
+    }
+    .footer-text {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+    .footer-text-extra {
+      /* margin-top: 1px; */
+      margin-bottom: -2%;
+      margin-top: 25%;
+      padding-bottom: 3px;
+      color: #808087;
+      font-size: 13px;
+    }
+  #horizontal-wala-div2 {
+      display: flex;
+      width: 95%;
+      justify-content: center;
+      margin: auto;
+      margin-top: -8%;
+    }
+  #footer-button{
+      width:25%;
+      height: 20px;
+      border-radius: 3%;
+  }
+}
+
+

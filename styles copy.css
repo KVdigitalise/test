@@ -1,0 +1,1892 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#horizontal-wala-div-social {
+  display: flex;
+  border-color: white;
+  width: 100%;
+  padding: 5px;
+}
+.icon-circle:link {
+  color: #ffc6b4;
+}
+.icon-circle:active {
+  color: white;
+}
+.icon-circle:hover {
+  color: white;
+}
+.colour {
+  color: #ffc6b4;
+}
+.colour-footer {
+  color: #808087;
+}
+.colour-orange {
+  color: #fd5600ff;
+}
+.main-body {
+  max-width: 500px;
+  margin: auto;
+  padding: 0;
+  font-family: Muli;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  overflow: hidden;
+}
+
+section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url('./images/trial3improvize.svg'); */
+  background: #056cfb;
+  object-fit: scale-down;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 35% 0%;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  transform: scaleX(2.2);
+}
+
+section .content {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* section .content h2 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 3em;
+} */
+section .content p {
+  color: #fff;
+  font-size: 1.2em;
+}
+@media only screen and (min-width: 500px) {
+  #logo {
+    width: 180px;
+    height: 25px;
+    margin-top: 3%;
+  }
+  #logo_2 {
+    display: block;
+    background-color: white;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-radius: 55%;
+    margin-top: 1%;
+    z-index: 40;
+    margin-bottom: 3%;
+    width: 115px;
+    height: 115px;
+    padding: 5px;
+  }
+  #card_owner {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -1.5%;
+  }
+  #designation {
+    color: white;
+    font-size: 13px;
+    margin-top: -1%;
+  }
+  #company {
+    color: white;
+    font-size: 24px;
+    padding: 3.2%;
+    font-weight: bolder;
+    /* margin-top: -1%; */
+  }
+  #horizontal-wala-div {
+    display: flex;
+    border-color: white;
+    width: 85%;
+    margin-bottom: 15%;
+  }
+  #vertical-wala-div {
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  section {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: url('./images/trial3improvize.svg'); */
+    background: #056cfb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(2.2);
+  }
+  /* .service_image {
+    width: 150px;
+    margin-top: -20%;
+  } */
+  #hungama_music {
+    width: 200px;
+    height: 50px;
+    margin-top: 15%;
+    margin-left: 6px;
+  }
+  #bollywood_hungama {
+    width: 160px;
+    height: 40px;
+    /* margin-top: -20%; */
+    margin-top: 10px;
+    margin-left: 6px;
+  }
+  #hungama_games {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    /* margin-top: -25%; */
+    margin-left: 6px;
+  }
+  #hungama_play {
+    width: 200px;
+    height: 50px;
+    margin-top: 15%;
+    margin-left: -8px;
+  }
+  #artist_aloud {
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    margin-left: -3px;
+  }
+
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  #company-name {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 4%;
+    background-color: transparent;
+    border:  rgb(185, 179, 179) 2px solid;
+  }
+  .icon-circle-vertical {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 4%;
+    background-color: transparent;
+    /* border: whitesmoke 3px solid; */
+  }
+  .icon-circle-vertical img {
+    width: 35px;
+    height: 35px;
+  }
+  .icon-circle-footer {
+    width: 50px;
+    height: fit-content;
+    /* padding: 3px 3px 3px 3px; */
+    /* padding-bottom: 0px; */
+    /* margin-right: 4%; */
+  }
+  .footer-text {
+    /* margin-top: -15%; */
+    /* margin-top: px; */
+    margin-bottom: -2%;
+    color: #808087;
+    font-size: 16px;
+  }
+  .footer-text-extra {
+    /* margin-top: -15%; */
+    /* margin-top: px; */
+    margin-bottom: -2%;
+    margin-top: 25%;
+    color: #808087;
+    font-size: 16px;
+  }
+  #horizontal-wala-div2 {
+    display: flex;
+    height: fit-content;
+    background-color: #dcdcdf;
+
+    /* padding: 6px; */
+  }
+  .icon-size {
+    color: white;
+    font-size: 24px;
+  }
+  .icon-size-footer {
+    font-size: 23px;
+  }
+  .information {
+    height: 60px;
+    width: 85%;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: -1%;
+    margin-left: -1%;
+    text-align: justify;
+    padding-left: 1%;
+    color: #808087;
+  }
+  #service-left {
+    margin-top: -3%;
+    margin-left: -12%;
+    font-size: 18px;
+    width: 50%;
+  }
+  #services_name {
+    margin-left: -2%;
+  }
+  #service-right {
+    margin-top: -3%;
+    font-size: 18px;
+    width: 50%;
+    float: right;
+  }
+  #services_wala_para {
+    font-size: 17px;
+  }
+  #product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .desc-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .enquiry_button {
+    width: 48%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .desci-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .about_us_para {
+    font-size: 18px;
+    text-align: left;
+    padding: 2%;
+    color: #808087;
+  }
+  .product_wala_para {
+    font-size: 16px;
+    color: #808087;
+    padding: -3%;
+    font-weight: 500;
+    /* text-align: justify; */
+  }
+  .forward_image {
+    width: 45px;
+    height: 45px;
+  }
+  #myInput {
+    font-size: 15px;
+  }
+  .qr_modal_img {
+    width: 225px;
+    height: 225px;
+  }
+  .el {
+    font-size: 15px;
+  }
+  .title_wala_para {
+    font-size: 20px;
+  }
+  .number_wala_para {
+    font-size: 20px;
+  }
+}
+
+.title_wala_para {
+  font-size: 26px;
+}
+.number_wala_para {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 450px) {
+  #logo {
+    width: 160px;
+    height: 35px;
+    margin-top: 3%;
+  }
+  #logo_2 {
+    display: block;
+    background-color: white;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-radius: 55%;
+    margin-top: 5%;
+    z-index: 40;
+    margin-bottom: 3%;
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+  }
+  #card_owner {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -1.5%;
+  }
+  #designation {
+    color: white;
+    font-size: 14px;
+    margin-top: -1%;
+  }
+  #company {
+    color: white;
+    font-size: 26px;
+    padding: 3.2%;
+    font-weight: bolder;
+    /* margin-top: -1%; */
+  }
+  #horizontal-wala-div {
+    display: flex;
+    border-color: white;
+    width: 85%;
+    margin-bottom: 7%;
+  }
+  #vertical-wala-div {
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/trial3improvize.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(2.4);
+  }
+
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  #company-name {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 4%;
+    background-color: transparent;
+    border: #ffc6b4 3px solid;
+  }
+  .icon-circle-vertical {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 4%;
+    background-color: transparent;
+    /* border: whitesmoke 3px solid; */
+  }
+  .icon-circle-vertical img {
+    width: 32px;
+    height: 32px;
+  }
+  .icon-circle-footer {
+    width: 50px;
+    height: fit-content;
+    /* padding: 3px 3px 3px 3px; */
+    /* padding-bottom: 0px; */
+    margin-right: 4%;
+  }
+  .footer-text {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 14px;
+  }
+  .footer-text-extra {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    margin-bottom: 0;
+    margin-top: 25%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 14px;
+  }
+  /* .service_image {
+    width: 150px;
+    /* margin-top: 15%;
+  } */
+  #hungama_music {
+    width: 200px;
+    height: 50px;
+    margin-top: 15%;
+    margin-left: 6px;
+  }
+  #bollywood_hungama {
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    /* margin-top: -20%; */
+    margin-left: 6px;
+  }
+  #hungama_games {
+    width: 200px;
+    height: 50px;
+    /* margin-top: -26%; */
+    margin-top: 10px;
+    margin-left: 6px;
+  }
+  #hungama_play {
+    width: 200px;
+    height: 50px;
+    margin-top: 15%;
+    margin-left: -8px;
+  }
+  #artist_aloud {
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    margin-left: -3px;
+  }
+  #horizontal-wala-div2 {
+    display: flex;
+    background-color: #dcdcdf;
+    /* padding: 6px; */
+  }
+  .icon-size {
+    font-size: 27px;
+  }
+  .icon-size-footer {
+    font-size: 20px;
+  }
+  .information {
+    height: 60px;
+    width: 85%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: -1%;
+    margin-left: -1%;
+    text-align: justify;
+    padding-left: 1%;
+    color: #808087;
+  }
+  #service-left {
+    margin-top: -3%;
+    margin-left: -10%;
+    font-size: 18px;
+    width: 50%;
+  }
+  #services_name {
+    margin-left: 0%;
+  }
+  #service-right {
+    margin-top: -3%;
+    font-size: 18px;
+    width: 50%;
+    float: right;
+  }
+  #services_wala_para {
+    font-size: 17px;
+  }
+  #product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .desc-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .enquiry_button {
+    width: 48%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .desci-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .about_us_para {
+    font-size: 18px;
+    text-align: left;
+    padding: 2%;
+    color: #808087;
+  }
+  .product_wala_para {
+    font-size: 15px;
+    color: #808087;
+    margin-left: -1%;
+    font-weight: 500;
+  }
+  .forward_image {
+    width: 45px;
+    height: 45px;
+  }
+  #myInput {
+    font-size: 15px;
+  }
+  .qr_modal_img {
+    width: 225px;
+    height: 225px;
+  }
+  .el {
+    font-size: 15px;
+  }
+  .title_wala_para {
+    font-size: 20px;
+  }
+  .number_wala_para {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 450px) and (min-width: 400px) {
+  #logo {
+    width: 160px;
+    height: 40px;
+    margin-top: 3%;
+  }
+  #logo_2 {
+    display: block;
+    background-color: white;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-radius: 55%;
+    margin-top: 3%;
+    z-index: 40;
+    margin-bottom: 3%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  #card_owner {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -1.5%;
+  }
+  #designation {
+    color: white;
+    font-size: 14px;
+    margin-top: -1%;
+  }
+  #company {
+    color: white;
+    font-size: 24px;
+    padding: 3%;
+    font-weight: bolder;
+    /* margin-top: -1%; */
+  }
+  #horizontal-wala-div {
+    display: flex;
+    border-color: white;
+    width: 85%;
+    margin-bottom: 7%;
+  }
+
+  #vertical-wala-div {
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  /* .service_image {
+    width: 140px;
+    /* margin-top: 15%;
+  } */
+  #hungama_music {
+    width: 175px;
+    height: 45px;
+
+    margin-top: 15%;
+    margin-left: 5px;
+  }
+  #bollywood_hungama {
+    width: 140px;
+    height: 35px;
+    margin-top: 10px;
+    /* margin-top: -20%; */
+    margin-left: 5px;
+  }
+  #hungama_games {
+    width: 175px;
+    height: 45px;
+    margin-top: 10px;
+    /* margin-top: -23%; */
+    margin-left: 5px;
+  }
+  #hungama_play {
+    width: 175px;
+    height: 45px;
+    margin-top: 17%;
+    margin-left: -8px;
+  }
+  #artist_aloud {
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: -3px;
+  }
+  #horizontal-wala-div2 {
+    display: flex;
+    background-color: #dcdcdf;
+    /* padding: 6px; */
+  }
+  section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/trial3improvize.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(2.2);
+  }
+
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  #company-name {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 4%;
+    background-color: transparent;
+    border: #ffc6b4 3px solid;
+  }
+  .icon-circle-footer {
+    width: 45px;
+    height: fit-content;
+    /* padding: 3px 3px 3px 3px; */
+    /* padding-bottom: 0px; */
+    margin-right: 4%;
+  }
+  .footer-text {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 14px;
+  }
+  .footer-text-extra {
+    /* margin-top: 1px; */
+    margin-top: 25%;
+    margin-bottom: -2%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 14px;
+  }
+  #horizontal-wala-div2 {
+    display: flex;
+    background-color: #dcdcdf;
+    /* padding: 6px; */
+  }
+  .icon-circle-vertical {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 4%;
+    background-color: transparent;
+    /* border: whitesmoke 3px solid; */
+  }
+  .icon-circle-vertical img {
+    width: 30px;
+    height: 30px;
+  }
+  .icon-size {
+    font-size: 25px;
+  }
+  .icon-size-footer {
+    font-size: 20px;
+  }
+  .information {
+    height: 60px;
+    width: 85%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: -1%;
+    margin-left: -1%;
+    text-align: justify;
+    padding-left: 1%;
+    color: #808087;
+  }
+  #service-left {
+    margin-top: -3%;
+    margin-left: -10%;
+    font-size: 18px;
+    width: 50%;
+  }
+  #services_name {
+    margin-left: 1%;
+  }
+  #service-right {
+    margin-top: -3%;
+    font-size: 18px;
+    width: 50%;
+    float: right;
+  }
+  #services_wala_para {
+    font-size: 17px;
+  }
+  #product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .desc-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .enquiry_button {
+    width: 48%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .desci-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .about_us_para {
+    font-size: 18px;
+    text-align: left;
+    padding: 2%;
+    color: #808087;
+  }
+  .product_wala_para {
+    font-size: 14px;
+    color: #808087;
+    margin-left: -3%;
+    font-weight: 500;
+  }
+  .forward_image {
+    width: 40px;
+    height: 40px;
+  }
+  #myInput {
+    font-size: 15px;
+  }
+  .qr_modal_img {
+    width: 225px;
+    height: 225px;
+  }
+  .el {
+    font-size: 15px;
+  }
+  .title_wala_para {
+    font-size: 20px;
+  }
+  .number_wala_para {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 400px) and (min-width: 350px) {
+  #logo {
+    width: 160px;
+    height: 40px;
+    margin-top: 3%;
+  }
+  #logo_2 {
+    display: block;
+    background-color: white;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-radius: 55%;
+    margin-top: 3%;
+    z-index: 40;
+    margin-bottom: 3%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  #card_owner {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -1.5%;
+  }
+  #designation {
+    color: white;
+    font-size: 14px;
+    margin-top: -1%;
+  }
+  #company {
+    color: white;
+    font-size: 22px;
+    padding: 3%;
+    font-weight: bolder;
+    /* margin-top: -1%; */
+  }
+  #horizontal-wala-div {
+    display: flex;
+    border-color: white;
+    width: 85%;
+    margin-bottom: 7%;
+  }
+  #vertical-wala-div {
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  /* .service_image {
+    width: 120px;
+    /* margin-top: 15%;
+  } */
+  #hungama_music {
+    width: 160px;
+    height: 40px;
+    margin-top: 15%;
+    margin-left: 2px;
+  }
+  #bollywood_hungama {
+    width: 125px;
+    height: 32px;
+    margin-top: 10px;
+    /* margin-top: -20%; */
+    margin-left: 2px;
+  }
+  #hungama_games {
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    /* margin-top: -26%; */
+    margin-left: 2px;
+  }
+  #hungama_play {
+    width: 160px;
+    height: 40px;
+    margin-top: 15%;
+    margin-left: -12px;
+  }
+  #artist_aloud {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: -3px;
+  }
+  section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/trial3improvize.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(2.8);
+  }
+
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  #company-name {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 4%;
+    background-color: transparent;
+    border: #ffc6b4 3px solid;
+  }
+  .icon-circle-vertical {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 4%;
+    background-color: transparent;
+    /* border: whitesmoke 3px solid; */
+  }
+  .icon-circle-vertical img {
+    width: 28px;
+    height: 28px;
+  }
+  .icon-circle-footer {
+    width: 40px;
+    height: fit-content;
+    /* padding: 3px 3px 3px 3px; */
+    /* padding-bottom: 0px; */
+    margin-right: 4%;
+  }
+  .footer-text {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 13px;
+  }
+  .footer-text-extra {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    margin-top: 25%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 13px;
+  }
+  #horizontal-wala-div2 {
+    display: flex;
+    background-color: #dcdcdf;
+    /* padding: 6px; */
+  }
+  .icon-size {
+    font-size: 25px;
+  }
+  .icon-size-footer {
+    font-size: 18px;
+  }
+  .information {
+    height: 60px;
+    width: 85%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: -1%;
+    margin-left: -1%;
+    text-align: justify;
+    padding-left: 1%;
+    color: #808087;
+  }
+  #service-left {
+    margin-top: -3%;
+    margin-left: -12%;
+    font-size: 18px;
+    width: 50%;
+  }
+  #services_name {
+    margin-left: 0%;
+  }
+  #service-right {
+    margin-top: -3%;
+    font-size: 18px;
+    width: 50%;
+    float: right;
+  }
+  #services_wala_para {
+    font-size: 17px;
+  }
+  #product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .desc-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .enquiry_button {
+    width: 48%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .desci-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .about_us_para {
+    font-size: 18px;
+    text-align: left;
+    padding: 2%;
+    color: #808087;
+  }
+  .product_wala_para {
+    font-size: 13px;
+    color: #808087;
+    margin-left: -4%;
+    font-weight: 500;
+  }
+  .forward_image {
+    width: 40px;
+    height: 40px;
+  }
+  #myInput {
+    font-size: 15px;
+  }
+  .qr_modal_img {
+    width: 225px;
+    height: 225px;
+  }
+  .el {
+    font-size: 15px;
+  }
+  .title_wala_para {
+    font-size: 20px;
+  }
+  .number_wala_para {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 350px) and (min-width: 300px) {
+  #logo {
+    width: 135px;
+    height: 35px;
+    margin-top: 3%;
+  }
+  #logo_2 {
+    display: block;
+    background-color: white;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-radius: 55%;
+    margin-top: 3%;
+    z-index: 40;
+    margin-bottom: 3%;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+  }
+  #card_owner {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: -1.5%;
+  }
+  #designation {
+    color: white;
+    font-size: 13px;
+    margin-top: -1%;
+  }
+  #company {
+    color: white;
+    font-size: 20px;
+    padding: 3%;
+    font-weight: bolder;
+    /* margin-top: -1%; */
+  }
+  #horizontal-wala-div {
+    display: flex;
+    border-color: white;
+    width: 90%;
+    margin-bottom: 7%;
+  }
+  #vertical-wala-div {
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  /* .service_image {
+    width: 100px;
+    /* margin-top: 15%;
+  } */
+  #hungama_music {
+    width: 135px;
+    height: 35px;
+    margin-top: 15%;
+    margin-left: 2px;
+  }
+  #bollywood_hungama {
+    width: 105px;
+    height: 26px;
+    margin-top: 10px;
+    /* margin-top: -20%; */
+    margin-left: 2px;
+  }
+  #hungama_games {
+    width: 135px;
+    height: 35px;
+    margin-top: 10px;
+    /* margin-top: -26%; */
+    margin-left: 2px;
+  }
+  #hungama_play {
+    width: 135px;
+    height: 35px;
+    margin-top: 15%;
+    margin-left: -10px;
+  }
+  #artist_aloud {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: -8px;
+  }
+  section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/trial3improvize.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(2.8);
+  }
+
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  #company-name {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 4%;
+    background-color: transparent;
+    border: #ffc6b4 3px solid;
+  }
+  .icon-circle-vertical {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 4%;
+    background-color: transparent;
+    /* border: whitesmoke 3px solid; */
+  }
+  .icon-circle-vertical img {
+    width: 25px;
+    height: 25px;
+  }
+  .icon-circle-footer {
+    width: 45px;
+    height: fit-content;
+    /* padding: 3px 3px 2px 3px; */
+    /* padding-bottom: 0px; */
+    margin-right: 4%;
+  }
+  .footer-text {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 12px;
+  }
+  .footer-text-extra {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    margin-top: 25%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 12px;
+  }
+  #horizontal-wala-div2 {
+    display: flex;
+    background-color: #dcdcdf;
+    /* padding: 6px; */
+  }
+  .icon-size {
+    font-size: 25px;
+  }
+  .icon-size-footer {
+    font-size: 17px;
+  }
+  .information {
+    height: 60px;
+    width: 85%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: -1%;
+    margin-left: -1%;
+    text-align: justify;
+    padding-left: 1%;
+    color: #808087;
+  }
+  #service-left {
+    margin-top: -3%;
+    margin-left: -15%;
+    font-size: 18px;
+    width: 50%;
+  }
+  #services_name {
+    margin-left: -2%;
+  }
+  #service-right {
+    margin-top: -3%;
+    font-size: 18px;
+    margin-right: 4%;
+    width: 50%;
+    float: right;
+  }
+  #services_wala_para {
+    font-size: 17px;
+  }
+  #product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .desc-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .enquiry_button {
+    width: 48%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .desci-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .about_us_para {
+    font-size: 18px;
+    text-align: left;
+    padding: 2%;
+    color: #808087;
+  }
+  .product_wala_para {
+    font-size: 12px;
+    color: #808087;
+    margin-left: -4%;
+    font-weight: 500;
+  }
+  .forward_image {
+    width: 35px;
+    height: 35px;
+  }
+  #myInput {
+    font-size: 15px;
+  }
+  .qr_modal_img {
+    width: 225px;
+    height: 225px;
+  }
+  .el {
+    font-size: 15px;
+  }
+  .title_wala_para {
+    font-size: 20px;
+  }
+  .number_wala_para {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 300px) and (min-width: 250px) {
+  #logo {
+    width: 125px;
+    height: 32px;
+    margin-top: 3%;
+  }
+  #logo_2 {
+    display: block;
+    background-color: white;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-radius: 55%;
+    margin-top: 3%;
+    z-index: 40;
+    margin-bottom: 3%;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+  }
+  #card_owner {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: -1.5%;
+  }
+  #designation {
+    color: white;
+    font-size: 11px;
+    margin-top: -1%;
+  }
+  #company {
+    color: white;
+    font-size: 18px;
+    padding: 3%;
+    font-weight: bolder;
+    /* margin-top: -1%; */
+  }
+  #horizontal-wala-div {
+    display: flex;
+    border-color: white;
+    width: 95%;
+    margin-bottom: 7%;
+  }
+  #vertical-wala-div {
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  /* .service_image {
+    width: 90px;
+    /* margin-top: 15%;
+  } */
+  #hungama_music {
+    width: 125px;
+    height: 32px;
+    margin-top: 15%;
+    margin-left: 3px;
+  }
+  #bollywood_hungama {
+    width: 95px;
+    height: 24px;
+    margin-top: -20%;
+    margin-top: 10px;
+    margin-left: 3px;
+  }
+  #hungama_games {
+    width: 125px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 3px;
+  }
+  #hungama_play {
+    width: 125px;
+    height: 32px;
+    margin-top: 15%;
+    margin-left: -8px;
+  }
+  #artist_aloud {
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: -5px;
+  }
+  section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/trial3improvize.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(2.8);
+  }
+
+  section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  #company-name {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 4%;
+    background-color: transparent;
+    border: #ffc6b4 3px solid;
+  }
+  .icon-circle-vertical {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 4%;
+    background-color: transparent;
+    /* border: whitesmoke 3px solid; */
+  }
+  .icon-circle-vertical img {
+    width: 22px;
+    height: 22px;
+  }
+  .icon-circle-footer {
+    width: 40px;
+    height: fit-content;
+    /* padding: 3px 3px 3px 3px; */
+    /* padding-bottom: 0px; */
+    margin-right: 4%;
+  }
+  .footer-text {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 11px;
+  }
+  .footer-text-extra {
+    /* margin-top: 1px; */
+    margin-bottom: -2%;
+    margin-top: 25%;
+    padding-bottom: 3px;
+    color: #808087;
+    font-size: 11px;
+  }
+  #horizontal-wala-div2 {
+    display: flex;
+    background-color: #dcdcdf;
+    /* padding: 6px; */
+  }
+  .icon-size {
+    font-size: 24px;
+  }
+  .icon-size-footer {
+    font-size: 15px;
+  }
+  .information {
+    height: 60px;
+    width: 85%;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    margin-top: -3%;
+    margin-left: -1%;
+    text-align: justify;
+    padding-left: 1%;
+    color: #808087;
+  }
+  #service-left {
+    margin-top: -3%;
+    margin-left: -16%;
+    font-size: 18px;
+    width: 50%;
+  }
+  #services_name {
+    margin-left: 1%;
+  }
+  #service-right {
+    margin-top: -3%;
+    font-size: 18px;
+    margin-right: 7%;
+    width: 50%;
+    float: right;
+  }
+  #services_wala_para {
+    font-size: 17px;
+  }
+  #product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .product_wala_button {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .desc-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .enquiry_button {
+    width: 48%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .desci-button {
+    width: 46%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(218, 38, 38);
+    border-radius: 6px;
+  }
+  .about_us_para {
+    font-size: 18px;
+    text-align: left;
+    padding: 2%;
+    color: #808087;
+  }
+  .product_wala_para {
+    font-size: 11px;
+    color: #808087;
+    margin-left: -4%;
+    font-weight: 500;
+  }
+  .forward_image {
+    width: 25px;
+    height: 25px;
+  }
+  #myInput {
+    font-size: 15px;
+  }
+  .qr_modal_img {
+    width: 225px;
+    height: 225px;
+  }
+  .el {
+    font-size: 15px;
+  }
+  .title_wala_para {
+    font-size: 20px;
+  }
+  .number_wala_para {
+    font-size: 20px;
+  }
+}
+
+#top-card {
+  width: 95%;
+}
+#bg-card {
+  background-image: url('./Yellow_Bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 0 0 60px 60px;
+}
+#logo_back {
+  padding: 4%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#hr-logo {
+  width: 60%;
+  border: 1px solid rgb(218, 38, 38);
+  margin-bottom: 6px;
+  margin-top: 1px;
+}
+.hr {
+  border: 0;
+  height: 1px;
+  background: rgb(216, 213, 213);
+  background-image: linear-gradient(to right, #ccc, rgb(211, 210, 210), #ccc);
+}
+
+#bottom-card {
+  width: 95%;
+}
+
+.product-card {
+  width: 98%;
+  height: fit-content;
+}
+.product-card-video {
+  width: 98%;
+  height: 100%;
+  margin-bottom: -40%;
+}
+.product-img {
+  width: 98%;
+  height: 70%;
+}
+.product-video {
+  width: 98%;
+  height: 55.12%;
+}
+.product-desc {
+  height: 28%;
+  width: 100%;
+  margin-left: -3%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+iframe {
+  overflow: hidden;
+}
+
+ul {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
