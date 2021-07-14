@@ -58,21 +58,22 @@
           </a>
         </div>
         <div>
-          <h3 id="card-owner">Kalpendu Pandya</h3>
-          <h6 id="designation">Assistant Vice President</h6>
-          <h5 id="company">Hungama Digital Media Entertainment</h5>
+          <h3 id="card-owner">Vedant Mehta</h3>
+          <h6 id="designation">Product Developer</h6>
+          <h5 id="company">KV Digitalise</h5>
+          <i style="color: white;">"Present yourself in a unique way"</i>
         </div>
         <div id="horizontal-wala-div" class="justify-content-center mx-auto mt-4">
             <div class="mx-auto">
               <div style="width: 100%">
-                <a href="" target="_blank" class="btn icon-circle" id="mobile_icon">
+                <a href="tel:+919324810612" target="_blank" class="btn icon-circle" id="mobile_icon">
                   <i class="fa fa-mobile-phone icon-size"></i>
                 </a>
               </div>
             </div>
             <div class="mx-auto">
               <div style="width: 100%">
-                <a href="" target="_blank" class="btn icon-circle" id="whatsapp_icon">
+                <a href="https://wa.me/919324810612?text=Hi Vedant " target="_blank" class="btn icon-circle" id="whatsapp_icon">
                   <i class="fab fa-whatsapp icon-size"></i>
                 </a>
               </div>
@@ -107,34 +108,36 @@
     <div id="vertical-wala-div">
       <div class="mx-auto" style="width: 100%">
         <div style="display: flex">
-          <a href="" id="address_icon" target="_blank" class="btn icon-circle-vertical"
+          <a href="https://goo.gl/maps/NVQkSfLdRaJdXYxe6" id="address_icon" target="_blank" class="btn icon-circle-vertical"
               style="margin-top: 1%">
               <img src="../images/location_808087.svg" alt="" />
           </a>
           <div class="information">
-              <a href="" target="_blank" id="address_text">
-                  SF-B-07, Art Guild House, Phoenix Market City, LBS Marg, Kurla(W), Mumbai-400070
+              <a href="https://goo.gl/maps/NVQkSfLdRaJdXYxe6" target="_blank" id="address_text">
+                Parichay CHSL.,Vidya Mandir Road, Misquita Nagar Dahisar(E), Mumbai-68
               </a>
           </div>
         </div>
       </div>
       <div class="mx-auto" style="width: 100%">
         <div class="" style="display: flex">
-          <a href="" id="email_icon" target="_blank" class="btn icon-circle-vertical" style="margin-top: 2%">
+          <a href="mailto:kvdigitalise@gmail.com?body=Hi Vedant " id="email_icon" target="_blank" class="btn icon-circle-vertical"
+            style="margin-top: 2%">
             <img src="../images/mail_808087.svg" alt="" />
           </a>
           <div class="information">
-              <a href="" id="email_text" target="_blank">kalpendupandya@hungama.com</a>
+              <a href="mailto:kvdigitalise@gmail.com?body=Hi Vedant " id="email_text" target="_blank">kvdigitalise@gmail.com</a>
           </div>
         </div>
       </div>
       <div class="mx-auto" style="width: 100%">
         <div class="" style="display: flex">
-          <a href="" id="phone_icon" class="btn icon-circle-vertical" style="margin-top: 2%;">
+          <a href="tel:+919324810612" id="phone_icon" class="btn icon-circle-vertical" style="margin-top: 2%;">
             <img src="../images/phone_808087.svg" alt="" />
           </a>
           <div class="information">
-            <a href="" id="phone_text">9930128669</a>
+            <a href="tel:+919324810612" id="phone_text">9324810612</a>
+            <a href="tel:+919819239008" id="phone_text">&nbsp;/ 9819239008</a>
           </div>
         </div>
       </div>
@@ -144,7 +147,7 @@
             <img src="../images/world_808087.svg" alt="" />
           </a>
           <div class="information">
-            <a href="https://www.hungama.org/" target="_blank">www.hungama.org</a>
+            <a href="https://www.hungama.org/" target="_blank">www.kvdigitalise.com</a>
           </div>
         </div>
       </div>
@@ -153,52 +156,190 @@
         <h5 style="text-align: left; font-weight: bold;" id="services_name">Services</h5>
         <div style="display: flex;margin-top: 5%;">
           <ul id="service-left">
-            <li>Hungama Music</li>
-            <li>Bollywood Hungama</li>
-            <li>Hungama Games</li>
+            <li>Website Making</li>
+            <li>Personalised Digital Card Making</li>
           </ul>
           <ul id="service-right">
-            <li>Hungama Play</li>
-            <li>Artist Aloud</li>
+            <li>Digital Marketting</li>
+            <li>Website Maintainence</li>
           </ul>
         </div>
       </div>
+    
     </div>
-    <div id="horizontal-wala-div2">
+    <div id="horizontal-wala-div2" style="margin-top: -5%;">
       <div class="main-div">
-        <div class="mx-auto ind-div act">
+        <div class="mx-auto ind-div act" id="about_div">
           <div style="width: 100%">
             <a href="#" class="btn icon-circle-footer mx-auto apna-modal"              
                 data-bs-target="#about_us_modal" style="display: block;" id="about_modal_button" data-bs-toggle="modal"
-                onclick="myFunctionAboutOpen()">
-                <i class="fa fa-user-plus fa icon-size"></i>
+                onclick="myFunctionFooterOpen('a')">
+                <i class="fa fa-user-plus footer active" id="about_icon"></i>
             </a>
           </div>
           <p class="ft footer-text" id="about_us_footer_text" style="color: white;">About Us</p>
         </div>
-        <div class="mx-auto ind-div">
+        <div class="mx-auto ind-div inact" id="gallery">
           <div style="width: 100%">
             <a href="#" class="btn icon-circle-footer mx-auto apna-modal" 
-                data-bs-target="#about_us_modal" style="display: block;" id="about_modal_button" data-bs-toggle="modal"
-                onclick="myFunctionAboutOpen()">
-                <img src="../images/icons/icons/profile.svg" alt="" id="about_us_svg" />
-            </a>
+                data-bs-target="#gallery_modal" style="display: block;" id="about_modal_button" data-bs-toggle="modal"
+                onclick="myFunctionFooterOpen('g')">
+                <i class="fas fa-images inactive" id="gallery_icon"></i>
+              </a>
           </div>
-          <p class="ft footer-text" id="about_us_footer_text">About Us</p>
+          <p class="ft footer-text" id="about_us_footer_text" style="color: white;">Gallery</p>
         </div>
-        <div class="mx-auto ind-div">
+        <div class="mx-auto ind-div inact" id="review">
           <div style="width: 100%">
             <a href="#" class="btn icon-circle-footer mx-auto apna-modal" 
-                data-bs-target="#about_us_modal" style="display: block;" id="about_modal_button" data-bs-toggle="modal"
-                onclick="myFunctionAboutOpen()">
-                <img src="../images/icons/icons/profile.svg" alt="" id="about_us_svg" />
+                data-bs-target="#review_modal" style="display: block;" id="about_modal_button" data-bs-toggle="modal"
+                onclick="myFunctionFooterOpen('r')">
+                <i class="fas fa-user-friends icon-size inactive" id="review_icon"></i>
             </a>
           </div>
-          <p class="ft footer-text" id="about_us_footer_text">About Us</p>
+          <p class="ft footer-text" id="about_us_footer_text" style="color: white;">Reviews</p>
+          </div>
+          </div>
+          </div>
+          </div>
+          <script>
+            function myFunctionFooterOpen(parameter) {
+              if (parameter == 'a') {
+                document.getElementById("about_icon").classList.add("active")
+                document.getElementById("about_icon").classList.remove("inactive")
+                document.getElementById("gallery_icon").classList.remove("active")
+                document.getElementById("gallery_icon").classList.add("inactive")
+                document.getElementById("review_icon").classList.remove("active")
+                document.getElementById("review_icon").classList.add("inactive")
+
+                document.getElementById("about_div").classList.add("act")
+                document.getElementById("about_div").classList.remove("inact")
+                document.getElementById("gallery").classList.remove("act")
+                document.getElementById("gallery").classList.add("inact")
+                document.getElementById("review").classList.remove("act")
+                document.getElementById("review").classList.add("inact")
+              }
+              else if (parameter == 'g') {
+                document.getElementById("about_icon").classList.add("inactive")
+                document.getElementById("about_icon").classList.remove("active")
+                document.getElementById("gallery_icon").classList.add("active")
+                document.getElementById("gallery_icon").classList.remove("inactive")
+                document.getElementById("review_icon").classList.remove("active")
+                document.getElementById("review_icon").classList.add("inactive")
+
+                document.getElementById("about_div").classList.add("inact")
+                document.getElementById("about_div").classList.remove("act")
+                document.getElementById("gallery").classList.add("act")
+                document.getElementById("gallery").classList.remove("inact")
+                document.getElementById("review").classList.remove("act")
+                document.getElementById("review").classList.add("inact")
+              }
+              else {
+                document.getElementById("about_icon").classList.add("inactive")
+                document.getElementById("about_icon").classList.remove("active")
+                document.getElementById("gallery_icon").classList.add("inactive")
+                document.getElementById("review_icon").classList.remove("active")
+                document.getElementById("review_icon").classList.remove("inactive")
+                document.getElementById("review_icon").classList.add("active")
+
+                document.getElementById("about_div").classList.add("inact")
+                document.getElementById("about_div").classList.remove("act")
+                document.getElementById("gallery").classList.add("inact")
+                document.getElementById("review").classList.remove("act")
+                document.getElementById("review").classList.remove("inact")
+                document.getElementById("review").classList.add("act")
+              }
+            }
+          </script>
+          
+          
+          <!-- About Us Modal -->
+          <div class="modal fade" id="about_us_modal" tabindex="-1" aria-labelledby="about_us_modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content" style="height: 70%; width: 90%; margin: auto; border-radius: 30px">
+                <div class="modal-header" style="border: none;">
+                  <button type="button" class="btn-close apna-close" data-bs-dismiss="modal" aria-label="Close"
+                    id="about_us_close" onclick="myFunctionAboutClose()" style="margin-top: 3px;"></button>
+                </div>
+                <!-- <div class="modal-header"></div> -->
+                <div class="modal-body">
+          
+                  <h5 class="modal-title" style="font-weight: bold; padding-left: 2%;margin-top: -2%;" id="about_us_modalLabel">
+                    About Us
+                  </h5>
+                  <p class="about_us_para">
+                    Starting out as India’s first digital brand solutions platform in
+                    1999, we have grown to become the leading digital entertainment
+                    company in India, providing services across music, video,
+                    entertainment news and gaming. Our solutions combine content with
+                    technology to make digital consumption an enriching experience for
+                    users. <br />
+                  <ul style="margin-left: -4px;">
+                    <li>
+                      <strong>1 billion consumers served globally</strong> <br />
+                    </li>
+                    <li><strong>190 countries</strong> <br /></li>
+                    <li><strong>87 million monthly users worldwide</strong></li>
+                  </ul>
+                  </p>
         </div>
+        <!-- <div class="modal-footer">
+                       <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                        style="margin-top: 3px"
+                      ></button> -->
+        <!-- <button
+                        type="button"
+                        class="btn text-light"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                        data-dismiss="modal"
+                        style="background-color: rgb(218, 38, 38)"
+                      >
+                        Close
+                      </button> 
+                    </div> -->
       </div>
     </div>
-  </div>
+          </div>
+
+          <div class="modal fade" id="gallery_modal" tabindex="-1" aria-labelledby="gallery_modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content" style="height: 80%; border-radius: 30px; width: 90%; margin: auto">
+                <div class="modal-header" style="border: none;">
+                  <button type="button" class="btn-close apna-close" id="gallery_modal_close" onclick="myFunctionGalleryClose()"
+                    data-bs-dismiss="modal" aria-label="Close" style="margin-top: 3px"></button>
+                </div>
+                <div class="modal-body" id="gallery_body">
+          
+                  <h5 class="modal-title" style="font-weight: bold; margin-left: 2%;margin-top: -2%;" id="gallery_modalLabel">
+                    Gallery
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="review_modal" tabindex="-1" aria-labelledby="review_modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content" style="height: 80%; border-radius: 30px; width: 90%; margin: auto">
+                <div class="modal-header" style="border: none;">
+                  <button type="button" class="btn-close apna-close" id="review_modal_close" onclick="myFunctionGalleryClose()"
+                    data-bs-dismiss="modal" aria-label="Close" style="margin-top: 3px"></button>
+                </div>
+                <div class="modal-body" id="gallery_body">
+          
+                  <h5 class="modal-title" style="font-weight: bold; margin-left: 2%;margin-top: -2%;" id="review_modalLabel">
+                    Gallery
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
 </body>
 
 </html>

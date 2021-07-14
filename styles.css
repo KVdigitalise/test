@@ -1,8 +1,11 @@
+.inact{
+  color: #808087;
+}
 @media only screen and (min-width: 500px) {
   #main-body{
     padding: 5px;
     margin: auto;
-    max-width: 450px;
+    width:450px;
     text-align: center;
 }
   #personal-photo{
@@ -22,7 +25,7 @@
       color: white;
   }
   #company{
-      font-size: 24px;
+      font-size: 30px;
       margin-top: 4%;
       color: white;
   }
@@ -53,12 +56,12 @@
     position: relative;
     z-index: 1;
     margin: 0 auto;
-    max-width: 900px;
+    width: 100%;
     text-align: center;
   }
   #horizontal-wala-div {
       display: flex;
-      width: 85%;
+      width: 80%;
       margin-bottom: 12%;
       
     }
@@ -97,6 +100,9 @@
   .icon-size {
       color: white;
       font-size: 24px;
+    }
+    .inact{
+      color: #808087;
     }
   #vertical-wala-div {
       width: 85%;
@@ -141,6 +147,7 @@
   }
   .act{
       background-color: #056cfb;
+      
   }
   #service-left {
       margin-left: -3%;
@@ -188,7 +195,6 @@
       width: 95%;
       justify-content: center;
       margin: auto;
-      margin-top: -8%;
     }
   #footer-button{
       width:25%;
@@ -251,7 +257,7 @@
     position: relative;
     z-index: 1;
     margin: 0 auto;
-    max-width: 900px;
+    width: 100%;
     text-align: center;
   }
   #horizontal-wala-div {
@@ -337,9 +343,7 @@
       padding: 8px 20px 8px 20px;
       background-color: #dcdcdf;
   }
-  .act{
-      background-color: #056cfb;
-  }
+  
   #service-left {
       margin-left: -3%;
       text-align: left;
@@ -386,7 +390,7 @@
       width: 95%;
       justify-content: center;
       margin: auto;
-      margin-top: -8%;
+      
     }
   #footer-button{
       width:25%;
@@ -449,7 +453,7 @@
     position: relative;
     z-index: 1;
     margin: 0 auto;
-    max-width: 900px;
+    width: 100%;
     text-align: center;
   }
   #horizontal-wala-div {
@@ -584,7 +588,7 @@
       width: 95%;
       justify-content: center;
       margin: auto;
-      margin-top: -8%;
+      
     }
   #footer-button{
       width:25%;
@@ -647,7 +651,7 @@
     position: relative;
     z-index: 1;
     margin: 0 auto;
-    max-width: 900px;
+    width: 100%;
     text-align: center;
   }
   #horizontal-wala-div {
@@ -782,7 +786,7 @@
       width: 95%;
       justify-content: center;
       margin: auto;
-      margin-top: -8%;
+    
     }
   #footer-button{
       width:25%;
@@ -845,7 +849,7 @@
     position: relative;
     z-index: 1;
     margin: 0 auto;
-    max-width: 900px;
+    width: 100%;
     text-align: center;
   }
   #horizontal-wala-div {
@@ -980,7 +984,7 @@
       width: 95%;
       justify-content: center;
       margin: auto;
-      margin-top: -8%;
+    
     }
   #footer-button{
       width:25%;
@@ -1043,7 +1047,7 @@
     position: relative;
     z-index: 1;
     margin: 0 auto;
-    max-width: 900px;
+    width: 100%;
     text-align: center;
   }
   #horizontal-wala-div {
@@ -1178,7 +1182,7 @@
       width: 95%;
       justify-content: center;
       margin: auto;
-      margin-top: -8%;
+
     }
   #footer-button{
       width:25%;
@@ -1186,5 +1190,20 @@
       border-radius: 3%;
   }
 }
+  .act{
+        background-color: #056cfb;
+    }
+  .inact{
+    background-color: #dcdcdf;
+  }
+  .active
+  {
+    color: white;
+    font-size: 24px;
+  }
+  .inactive{
+    color: #808087;
+    font-size: 24px;
+  }
 
 
